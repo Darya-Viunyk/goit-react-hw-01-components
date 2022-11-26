@@ -1,4 +1,4 @@
-const avatar = "https://cdn-icons-png.flaticon.com/512/2922/2922506.png";
+// const avatar = "https://cdn-icons-png.flaticon.com/512/2922/2922506.png";
 export const Profile =({user:{username,tag,location,avatar,stats}})=>{
 return (
 <div>
