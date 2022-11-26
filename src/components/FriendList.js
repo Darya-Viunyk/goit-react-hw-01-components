@@ -1,5 +1,5 @@
-
-export const FriendList=({friends:{isOnline,avatar,name,}})=>{
+import propTypes from "prop-types";
+export const FriendList=({friends:{isOnline,avatar,name}})=>{
     return(
 <ul>
 <li>
@@ -29,4 +29,9 @@ export const FriendList=({friends:{isOnline,avatar,name,}})=>{
 </li>
 </ul>
 )
+};
+FriendList.propTypes={
+    isOnline:propTypes.string.isRequired,
+    avatar:propTypes.string.isRequired,
+    name:propTypes.string.isRequired,
 };

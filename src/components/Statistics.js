@@ -1,3 +1,4 @@
+import propTypes from "prop-types";
 export const Statistics =({data:{id,label,percentage}})=>{
 return(
   
@@ -30,4 +31,9 @@ return(
 </section>
 </div>
 )
-    };
+};
+Statistics.propTypes={
+  id:propTypes.number.isRequired,
+  label:propTypes.string.isRequired,
+  percentage:propTypes.number.isRequired,
+};
