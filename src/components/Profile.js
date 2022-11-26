@@ -12,7 +12,7 @@ return (
     <p>{location}</p>
   </div>
 
-  <ul>{stats}
+  <ul>
     <li>
       <span></span>
       <span>{stats.followers}</span>
