@@ -4,26 +4,25 @@ export const Statistics = ({ data: { id, label, percentage } }) => {
     <div>
       <section>
         <h2>Upload stats</h2>
-
         <ul>
           <li>
-            <span>{id.label}.docx</span>
+            <span>{label.id}.docx</span>
             <span>{percentage}%</span>
           </li>
           <li>
-            <span>{id.label}.pdf</span>
+            <span>{label.id}.pdf</span>
             <span>{percentage}%</span>
           </li>
           <li>
-            <span>{id.label}.mp3</span>
+            <span>{label.id}.mp3</span>
             <span>{percentage}%</span>
           </li>
           <li>
-            <span>{id.label}.psd</span>
+            <span>{label.id}.psd</span>
             <span>{percentage}%</span>
           </li>
           <li>
-            <span>{id.label}.pdf</span>
+            <span>{label.id}.pdf</span>
             <span>{percentage}%</span>
           </li>
         </ul>
@@ -32,7 +31,6 @@ export const Statistics = ({ data: { id, label, percentage } }) => {
   );
 };
 Statistics.propTypes = {
-  id: propTypes.number.isRequired,
   label: propTypes.string.isRequired,
   percentage: propTypes.number.isRequired,
 };
