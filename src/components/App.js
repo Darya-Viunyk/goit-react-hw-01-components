@@ -9,12 +9,13 @@ import friends from "../components/friends.json"
 
 
 
+
 export const App = () => {
   return (
     <div>
   <Profile user={user}/>
-  <Statistics data={data[0]}/>
-  <FriendListItem items={friends}/>
+  <Statistics data={data}/>
+  <FriendListItem friends={friends}/>
     </div>
   );
 };
