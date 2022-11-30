@@ -1,0 +1,12 @@
+td {
+  padding: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #656464;
+}
+.tr {
+  background-color: #bdbdbd;
+}
+.tr:nth-child(2n) {
+  background-color: #ffffff;
+}
