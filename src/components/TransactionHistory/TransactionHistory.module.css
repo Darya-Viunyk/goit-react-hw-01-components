@@ -11,7 +11,7 @@ th {
 }
 
 .tbody .tr:nth-child(2n) {
-  background-color: #808080;
+  background-color: #bebebe;
 }
 
 .thead {
@@ -19,4 +19,16 @@ th {
 }
 .thead {
   background-color: #69baee;
+}
+td {
+  padding: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #656464;
+}
+.tr {
+  background-color: #ffffff;
+}
+.tr:nth-child(2n) {
+  background-color: #ffffff;
 }
