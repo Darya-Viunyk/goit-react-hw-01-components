@@ -1,9 +1,9 @@
 import propTypes from 'prop-types';
 import style from './Statistics.module.css';
-export const Statistics = ({ data }) => {
+export const Statistics = ({ title, data }) => {
   return (
     <section className={style.statistics}>
-      {/* {data.title && <h2 className={style.title}>Upload stats</h2>} */}
+      {title && <h2 className={style.title}>Upload stats</h2>}
 
       <ul className={style.statList}>
         {data.map(({ id, label, percentage }) => (
