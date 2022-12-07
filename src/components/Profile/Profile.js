@@ -35,15 +35,13 @@ export default function Profile(user) {
   );
 }
 Profile.propTypes = {
-  user: propTypes.shape({
-    username: propTypes.string.isRequired,
-    avatar: propTypes.string.isRequired,
-    tag: propTypes.string.isRequired,
-    location: propTypes.string.isRequired,
-    stats: propTypes.shape({
-      followers: propTypes.number.isRequired,
-      views: propTypes.number.isRequired,
-      likes: propTypes.number.isRequired,
-    }).isRequired,
-  }),
+  username: propTypes.string.isRequired,
+  avatar: propTypes.string.isRequired,
+  tag: propTypes.string.isRequired,
+  location: propTypes.string.isRequired,
+  stats: propTypes.shape({
+    followers: propTypes.number.isRequired,
+    views: propTypes.number.isRequired,
+    likes: propTypes.number.isRequired,
+  }).isRequired,
 };
